@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 
 public class MainPage {
     protected WebDriver driver;
-    private By myLoginLink = By.xpath("//*[@id=\"z-navicat-header-root\"]/header/div[3]/div/div/div/div/z-grid/z-grid-item/div/div[1]/div[3]/div/div[1]/a");
+    private By myLoginLink = By.xpath("//span[@class='z-text z-navicat-header_navToolLabelName z-text-cta z-text-black']");
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
