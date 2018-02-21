@@ -21,7 +21,7 @@ public class FirstTest  extends BaseSetup {
 
             System.out.println("\nMy Profile page test started. ");
             ProfilePage myProfilePage = mainPage.clickMyProfileLink();
-            assertTrue(myProfilePage.getProfilePage().contains("Войти"));
+            assertTrue(myProfilePage.getProfilePage().contains("Moje konto"));
             System.out.println("My Profile page test has been completed.\n");
         }
 
